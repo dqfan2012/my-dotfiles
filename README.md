@@ -18,3 +18,7 @@ I've always used terminator as my terminal of choice. My terminal theme ([powerl
  # Configuration
 
  See [Dotbot](https://github.com/anishathalye/dotbot/) docs for more info and [install.conf.yaml](https://github.com/dqfan2012/dotfiles/blob/master/install.conf.yaml) for examples.
+
+# Screenshots
+
+[Imgur](https://i.imgur.com/WFdK9tb.png)
