@@ -6,7 +6,7 @@ My dotfiles. They're managed using dotbot.
 
 Inspired by [Dotfiles by cvuorinen](https://github.com/cvuorinen/dotfiles)
 
-I've always used terminator as my terminal of choice. My terminal theme ([powerlevel9k](https://github.com/bhilburn/powerlevel9k)) and terminal colors are directly inspired by the dotfiles by cvuorinen. I use [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) instead of those used by cvuorinen.
+I've always used terminator as my terminal of choice. My terminal theme ([powerlevel9k](https://github.com/bhilburn/powerlevel9k)) and terminal colors are directly inspired by the dotfiles by cvuorinen. I use [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts).
 
 # Install
 
