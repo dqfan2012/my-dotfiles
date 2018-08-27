@@ -9,6 +9,9 @@
 source ~/.bashrc
 source ~/.profile
 
+# Setup fzf
+~/.fzf/install
+
 # Update the software
 sudo apt-get update && sudo apt-get upgrade -y
 

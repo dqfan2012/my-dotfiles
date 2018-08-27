@@ -77,3 +77,5 @@ eval "$(rbenv init -)"
 
 # composer config
 export PATH="$HOME/.composer/vendor/bin:$PATH"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
