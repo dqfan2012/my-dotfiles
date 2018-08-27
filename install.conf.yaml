@@ -1,0 +1,16 @@
+- clean: ['~']
+
+- link:
+    ~/.profile: profile
+    ~/.bashrc: bashrc
+    ~/.bash_logout: bash_logout
+    ~/.gitconfig: gitconfig
+    ~/.zshrc: zshrc
+    ~/.config/terminator:
+        path: config/terminator/
+        create: true
+    ~/.fzf:
+        path: fzf/
+        create: true
+
+
