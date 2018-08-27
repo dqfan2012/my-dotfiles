@@ -21,4 +21,4 @@ I've always used terminator as my terminal of choice. My terminal theme ([powerl
 
 # Screenshots
 
-[Imgur](https://i.imgur.com/WFdK9tb.png)
+![Imgur](https://i.imgur.com/WFdK9tb.png)
