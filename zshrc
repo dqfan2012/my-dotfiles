@@ -5,7 +5,7 @@ export EDITOR="$VISUAL"
 
 DEFAULT_USER="sstidham"
 
-source ~/antigen.zsh
+source ~/antigen/antigen.zsh
 source ~/.fonts/*.sh
 
 # Load the oh-my-zsh library.

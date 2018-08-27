@@ -16,3 +16,6 @@
         path: vim/
         create: true
     ~/.vimrc: vimrc
+    ~/.hgrc: hgrc
+    ~/nerd-fonts: nerd-fonts
+    ~/antigen: antigen
