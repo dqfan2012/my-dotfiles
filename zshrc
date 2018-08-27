@@ -19,6 +19,7 @@ antigen bundle composer
 antigen bundle encode64
 antigen bundle gem
 antigen bundle git
+antigen bundle git-flow
 antigen bundle history
 antigen bundle httpie
 antigen bundle jsontools
