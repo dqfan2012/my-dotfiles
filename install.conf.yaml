@@ -12,5 +12,7 @@
     ~/.fzf:
         path: fzf/
         create: true
-
-
+    ~/.vim:
+        path: vim/
+        create: true
+    ~/.vimrc: vimrc
