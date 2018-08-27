@@ -29,8 +29,8 @@ fi
 # Install fortune-mod and cowsay for zsh plugin
 sudo apt-get install -y fortune-mod cowsay
 
-# Install CVS tools and vim
-sudo apt-get install -y git mercurial vim
+# Install CVS tools, vim, and exuberant-ctags
+sudo apt-get install -y git mercurial vim exuberant-ctags
 
 # Configure git
 git config --global color.ui auto
