@@ -10,6 +10,7 @@ I've always used terminator as my terminal of choice. My terminal theme ([powerl
 
 # Install
 
+ - Make sure you have git installed.
  - Clone this repo
  - Run ./install
 
