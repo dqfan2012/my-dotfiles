@@ -222,5 +222,8 @@ sudo snap install insomnia
 # Install Flash and Java 8
 sudo apt-get install -y flashplugin-installer openjdk-8-jdk
 
+# Install the fonts
+sudo sh ~/.dotfiles/nerd-fonts/install.sh
+
 # Reboot the system for all the changes to take affect
 sudo reboot
