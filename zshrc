@@ -29,7 +29,7 @@ antigen bundle node
 antigen bundle npm
 antigen bundle perl
 antigen bundle python
-antigen bundle rails
+#antigen bundle rails
 antigen bundle ruby
 antigen bundle sublime
 antigen bundle systemd

@@ -41,7 +41,7 @@ git config --global user.email "dqfan2012@gmail.com"
 sudo apt-get install -y build-essential gcc cmake libgit2-dev
 
 # Install commandline HTTP tools
-sudo apt-get install -y curl httpie lynx
+sudo apt-get install -y jq curl httpie lynx
 
 # Install additional shells
 sudo apt-get install -y zsh fish csh ksh
@@ -67,6 +67,12 @@ source ~/.profile
 
 # Install exa the ls replacement
 cargo install exa
+
+# Install the cat replacement
+cargo install bat
+
+# Install the grep replacement
+cargo install ripgrep
 
 ##################
 # Python Install #
