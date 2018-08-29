@@ -30,7 +30,7 @@ fi
 sudo apt-get install -y fortune-mod cowsay
 
 # Install CVS tools, vim, and exuberant-ctags
-sudo apt-get install -y git mercurial vim exuberant-ctags
+sudo apt-get install -y git git-flow mercurial vim exuberant-ctags
 
 # Configure git
 git config --global color.ui auto
