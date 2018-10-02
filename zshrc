@@ -2,6 +2,12 @@ export TERM="xterm-256color"
 
 export VISUAL=vim
 export EDITOR="$VISUAL"
+export COMPOSER_ALLOW_XDEBUG=1
+export PHPLS_ALLOW_XDEBUG=1
+export DOTNET_CLI_TELEMETRY_OPTOUT=1
+
+SAVEHIST=1000
+HISTFILE=~/.zsh_history
 
 DEFAULT_USER="sstidham"
 

@@ -115,6 +115,10 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+export COMPOSER_ALLOW_XDEBUG=1
+export PHPLS_ALLOW_XDEBUG=1
+
 alias ll="exa -l --git --time-style=long-iso --group-directories-first"
 alias l="exa -la --git --time-style=long-iso --group-directories-first"
 alias la="exa -lahg --git --time-style=long-iso --group-directories-first"
@@ -122,7 +126,9 @@ alias la="exa -lahg --git --time-style=long-iso --group-directories-first"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
 export PATH="$HOME/.rbenv/bin:$PATH"
+
 export PATH="$HOME/.composer/vendor/bin:$PATH"
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
