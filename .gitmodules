@@ -1,18 +1,24 @@
 [submodule "dotbot"]
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
+	shallow = true
 [submodule "fzf"]
 	path = fzf
 	url = https://github.com/junegunn/fzf.git
+	shallow = true
 [submodule "vim/bundle/Vundle.vim"]
 	path = vim/bundle/Vundle.vim
 	url = https://github.com/VundleVim/Vundle.vim.git
+	shallow = true
 [submodule "nerd-fonts"]
 	path = nerd-fonts
 	url = https://github.com/ryanoasis/nerd-fonts.git
+	shallow = true
 [submodule "antigen"]
 	path = antigen
 	url = https://github.com/zsh-users/antigen.git
+	shallow = true
 [submodule "vim/bundle/vim-colorschemes"]
 	path = vim/bundle/vim-colorschemes
-	url = git@github.com:flazz/vim-colorschemes.git
+	url = https://github.com/flazz/vim-colorschemes.git
+	shallow = true
