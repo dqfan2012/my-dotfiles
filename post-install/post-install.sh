@@ -19,12 +19,12 @@ sudo apt-get dist-upgrade -y
 sudo apt-get autoremove
 
 # Install imvirt to detect if OS running in VM
-sudo apt-get install -y imvirt
+#sudo apt-get install -y imvirt
 
 # Detect whether Ubuntu is in a VM
-if [[ $(imvirt) ]]; then
- sudo apt-get install -y open-vm-tools-desktop;
-fi
+#if [[ $(imvirt) ]]; then
+# sudo apt-get install -y open-vm-tools-desktop;
+#fi
 
 # Install fortune-mod and cowsay for zsh plugin
 sudo apt-get install -y fortune-mod cowsay
@@ -89,11 +89,11 @@ sudo apt-get install -y python3-pip python-pip
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 
 # Install node lts and current
-nvm install 8.11.4
-nvm install 10.9.0
+nvm install 10.14.1
+nvm install 11.4.0
 
 # Select default node version
-nvm use 8.11.4
+nvm use 10.14.1
 
 ################
 # Ruby Install #
@@ -103,7 +103,7 @@ nvm use 8.11.4
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 
 # Install the newest version of ruby
-rbenv install 2.5.1
+rbenv install 2.5.3
 
 ##############
 # DB Install #
