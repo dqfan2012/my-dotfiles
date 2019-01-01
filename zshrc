@@ -9,10 +9,10 @@ export DOTNET_CLI_TELEMETRY_OPTOUT=1
 SAVEHIST=1000
 HISTFILE=~/.zsh_history
 
-DEFAULT_USER="sstidham"
+DEFAULT_USER="samuelstidham"
 
 source ~/antigen/antigen.zsh
-source ~/.fonts/*.sh
+#source ~/.fonts/*.sh
 
 # Load the oh-my-zsh library.
 antigen use oh-my-zsh
@@ -36,7 +36,7 @@ antigen bundle npm
 antigen bundle perl
 antigen bundle python
 #antigen bundle rails
-antigen bundle ruby
+#antigen bundle ruby
 antigen bundle sublime
 antigen bundle systemd
 antigen bundle urltools
@@ -72,6 +72,8 @@ antigen apply
 alias ll="exa -l --git --time-style=long-iso --group-directories-first"
 alias l="exa -la --git --time-style=long-iso --group-directories-first"
 alias la="exa -lahg --git --time-style=long-iso --group-directories-first"
+
+alias ssh-tntdev2="ssh -i $HOME/Documents/Rackspace\ PPKs/sastidham.pem sastidham@108.166.26.254"
 
 # NVM config
 export NVM_DIR="$HOME/.nvm"

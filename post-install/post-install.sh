@@ -19,12 +19,12 @@ sudo apt-get dist-upgrade -y
 sudo apt-get autoremove
 
 # Install imvirt to detect if OS running in VM
-sudo apt-get install -y imvirt
+#sudo apt-get install -y imvirt
 
 # Detect whether Ubuntu is in a VM
-if [[ $(imvirt) ]]; then
- sudo apt-get install -y open-vm-tools-desktop;
-fi
+#if [[ $(imvirt) ]]; then
+# sudo apt-get install -y open-vm-tools-desktop;
+#fi
 
 # Install fortune-mod and cowsay for zsh plugin
 sudo apt-get install -y fortune-mod cowsay
@@ -33,9 +33,9 @@ sudo apt-get install -y fortune-mod cowsay
 sudo apt-get install -y git git-flow mercurial vim exuberant-ctags
 
 # Configure git
-git config --global color.ui auto
-git config --global user.name "Samuel Stidham"
-git config --global user.email "dqfan2012@gmail.com"
+#git config --global color.ui auto
+#git config --global user.name "Samuel Stidham"
+#git config --global user.email "dqfan2012@gmail.com"
 
 # Install build tools and build dependencies
 sudo apt-get install -y build-essential gcc cmake libgit2-dev
