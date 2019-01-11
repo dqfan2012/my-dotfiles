@@ -33,9 +33,9 @@ sudo apt-get install -y fortune-mod cowsay
 sudo apt-get install -y git git-flow mercurial vim exuberant-ctags
 
 # Configure git
-git config --global color.ui auto
-git config --global user.name "Samuel Stidham"
-git config --global user.email "dqfan2012@gmail.com"
+#git config --global color.ui auto
+#git config --global user.name "Samuel Stidham"
+#git config --global user.email "dqfan2012@gmail.com"
 
 # Install build tools and build dependencies
 sudo apt-get install -y build-essential gcc cmake libgit2-dev
